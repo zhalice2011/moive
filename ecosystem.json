@@ -2,9 +2,11 @@
     "apps":[
         {
             "name":"moive",
-            "script":{
-                "start": "node ./bin/www"
-            },
+            "script":"./bin/www"
+            ,
+            // "script":{
+            //     "start": "node ./bin/www"
+            // },
             "env":{
                 "COMMON_VARIABLE":"true"
             },
